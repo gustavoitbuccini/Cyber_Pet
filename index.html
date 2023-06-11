@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cyber Pet</title>
+</head>
+<body>
+
+    <div class="inicio">
+        <br>
+        <h2>Cyber Pet</h2>
+        <a class="link-inicio" href="#sobre">Sobre</a>
+        <a class="link-inicio" href="#servicos">Serviços</a>
+        <a class="link-inicio" href="#suportes">Suportes</a>
+        <a class="link-inicio" href="#contatos">Contatos</a>
+    </div>
+
+    <div class="foto">
+        <img src="img/caozin.jpg" alt="animal">
+        <img src="img/dog.jpg" alt="cachorro">
+        <img src="img/gato.jpg" alt="gato">
+        <img src="img/cachorro.jpg" alt="cao">
+    </div>
+
+    <hr>
+
+    <div id="sobre" class="secao-sobre">
+        <h3>Sobre a Cyber Pet</h3>
+        <p>A Cyber Pet foi criada em 2020 pelo seu atual dono Higor Germanes, uma clínica médica localizada em Recife com o objetivo de se tornar uma das melhores clínicas de animais do Brasil. Os serviços da empresa vão desde exames dos animais, tanto domésticos quanto silvestres, até o tratamento especializado. Nossos serviços são:</P>
+        <p>- Atendimento veterinário 24 horas. <br>- Castração de cães e gatos.<br>- Atendimento clínico geral.<br>- Internações.<br>- Vacinação de cães e gatos.<br>- Banho e Tosa.<br>- Exames laborais.</p>
+    </div>
+
+    <hr>
+
+    <div id="servicos" class="secao-servicos">
+        <h3 class="dados">Informe seus dados<br>Para solicitar um serviço</h3>
+        <p></p>
+        <form method="post" class="formulario" action="link.php">
+            <label for="nome">Nome</label>
+            <input id="nome" type="text" name="nome" placeholder="Nome completo" required><br><br>
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" placeholder="Email para contato" required><br><br>
+            <label for="senha">Senha</label>
+            <input id="senha" type="password" name="senha" placeholder="Senha para cadastro" required><br><br>
+            <button class="envio" type="banco">Solicitar Serviço</button>
+        </form>
+    </div>
+    
+    <br>
+    <hr>
+
+    <div class="tabela">
+        <h3>Tabela de Serviços e Preços</h3>
+        <table class="tabela-servicos">
+            <thead>
+                <tr>
+                    <th>Serviços</th>
+                    <th>Valores</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Atendimento Veterinário 24 Horas</td>
+                    <td>R$100,00</td>
+                </tr>
+                <tr>
+                    <td>Castração de Cães e Gatos</td>
+                    <td>R$100,00</td>
+                </tr>
+                <tr>
+                    <td>Atendimento Clínico Geral</td>
+                    <td>R$150,00</td>
+                </tr>
+                <tr>
+                    <td>Internações</td>
+                    <td>R$150,00</td>
+                </tr>
+                <tr>
+                    <td>Vacinação de Cães e Gatos</td>
+                    <td>R$50,00</td>
+                </tr>
+                <tr>
+                    <td>Banho e Tosa</td>
+                    <td>R$100,00</td>
+                </tr>
+                <tr>
+                    <td>Exames Laborais</td>
+                    <td>R$150,00</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>A Cyber Pet utiliza apenas cartão como forma de pagamento</h3>
+    </div>
+
+    <hr>
+
+    <div id="suportes" class="secao-suportes">
+        <h3>Suporte da Empresa</h3>
+        <p>Caso você tenha alguma dúvida ou gostaria de slicitar algum reparo ou manutenção no site em que esteja navegando,por gentileza contate nossa equipe de suporte através dos links abaixo:</p>
+        <ul class="lista-suporte">
+            <li class="item-lista-suporte"><a class="item-suporte" href="tel:+5571988888888">Telefone de Contato da Equipe de Suporte</a></li>
+            <li class="item-lista-suporte"><a class="item-suporte" href="tel:+5571999999999">Telefone de Contato da Equipe de Tira-Dúvidas</a></li>
+        </ul>
+    </div>
+
+    <div id="contatos" class="secao-contatos">
+        <br>
+        <h3>Contatos da Empresa</h3>
+        <span>@CyberPet/Instagram.com</span><br>
+        <span>@CyberPet/Facebook.com</span><br>
+        <span>@CyberPet/Twitter.com</span><br>
+        <span>@CyberPet/TikTok.com</span><br>
+        <span>@CyberPet/LinkedIn.com</span><br><br>
+        <p>@Copyright - CyberPet</p>
+    </div>
+
+</body>
+</html>

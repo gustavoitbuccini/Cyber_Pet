@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inicio {
+    background-color: greenyellow;
+    text-align: center;
+    height: 120px;
+    margin-top: 0;
+}
+
+.link-inicio {
+    color: #1d1d1d;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0 10px;
+    border-bottom: 2px solid #1d1d1d;
+}
+
+.foto {
+    text-align: center;
+}
+
+p {
+   font-size: 16px; 
+}
+
+.secao-sobre h3 {
+    text-align: center;
+}
+
+.secao-servicos {
+    text-align: center;
+}
+
+.envio {
+    height: 30px;
+    width: 200px;
+    background-color: greenyellow;
+    font-weight: bold;
+}
+
+.tabela {
+    text-align: center;
+    margin-left: 500px;
+}
+
+.tabela h3 {
+    margin-right: 500px;
+}
+
+.secao-contatos {
+    color: black;
+    background-color: greenyellow;
+    text-align: center;
+    height: 250px;
+}
+
+@media (max-width: 768px) {
+    .inicio {
+        text-align: center;
+    }
+    .link-inicio {
+        display: block;
+        margin-bottom: 10px;
+    }
+    .foto img {
+        max-width: 100%;
+        height: auto;
+    }
+    .secao-sobre,
+    .secao-servicos,
+    .secao-suportes,
+    .secao-contatos {
+        padding: 20px;
+    }
+    .formulario label,
+    .formulario input,
+    .formulario button {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .secao-servicos .dados {
+        text-align: center;
+    }
+    .secao-servicos .formulario label,
+    .secao-servicos .formulario input {
+        display: inline-block;
+        width: auto;
+    }
+}
+
+
+
+
+
